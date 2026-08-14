@@ -3,6 +3,8 @@ provider "aws" {
 }
 
 provider "azurerm" {
+  features {}
+  
   subscription_id = "your-azure-subscription-id"
   client_id = "your-azure-client-id"
   client_secret = "your-azure-client-secret"
